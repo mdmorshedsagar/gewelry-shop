@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProviders";
 import Swal from "sweetalert2";
-import GoogleLogin from "../SocialLogin/GoogleLogin";
+import GoogleLogin from "../../SocialLogin/GoogleLogin";
 
 const Register = () => {
   const navigate = useNavigate();

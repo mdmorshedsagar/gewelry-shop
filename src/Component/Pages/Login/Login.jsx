@@ -5,7 +5,8 @@ import groovyWalkAnimation from "../../../../public/login_img.json";
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProviders";
 import Swal from "sweetalert2";
-import GoogleLogin from "../SocialLogin/GoogleLogin";
+import GoogleLogin from "../../SocialLogin/GoogleLogin";
+
 
 const Login = () => {
   const { LoginUser } = useContext(AuthContext);
